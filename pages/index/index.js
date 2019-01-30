@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '我愿化成一座石桥，经受五百年的风吹，\n五百年的日晒，五百年的雨打，\n只求她从桥上走过!',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -50,5 +50,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onShareAppMessage(res){
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '我好爱我的款款',
+      path: 'pages/index/index',
+      imageUrl:'http://www.sunfeidi.com/icon.jpg'
+    }
   }
 })

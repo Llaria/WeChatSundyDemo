@@ -6,7 +6,23 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "我爱款款",
     "navigationBarTextStyle":"black"
+  },
+  "debug":false,
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"日志"
+    }],
+    "backgroundColor":"#ffffff"
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的位置信息将用于小程序"
+    }
   }
 }
