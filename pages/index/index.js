@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '我愿化成一座石桥，经受五百年的风吹，\n五百年的日晒，五百年的雨打，\n只求她从桥上走过!',
+    motto: '我',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')

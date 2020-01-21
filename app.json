@@ -1,28 +1,32 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "我爱款款",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "debug":false,
+  "debug": false,
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页"
-    },{
-      "pagePath":"pages/logs/logs",
-      "text":"日志"
-    }],
-    "backgroundColor":"#ffffff"
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ],
+    "backgroundColor": "#ffffff"
   },
-  "permission":{
-    "scope.userLocation":{
-      "desc":"你的位置信息将用于小程序"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序"
     }
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
